@@ -6,6 +6,7 @@ import della from "../../static/Della.png"
 import lohgad from "../../static/lohagad.webp"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import SHANI from "../../static/shaniwarwada.jpg";
 import { useHistory } from "react-router-dom";
 
 export const Activitybar = () => {
@@ -22,7 +23,7 @@ export const Activitybar = () => {
    
       
       <Card.Body className="actimg" >
-      <Card.Img variant="top" className="image" src={bhushi} height="100px" width="100px"/>
+      <Card.Img variant="top" className="image" src={SHANI} height="100px" width="100px"/>
         <Card.Title>Shaniwar Wada</Card.Title>
         <Card.Text className="ct">
           Some quick example text to build on the card title and make up the

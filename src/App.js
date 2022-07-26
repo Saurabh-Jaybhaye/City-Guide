@@ -27,7 +27,6 @@ const showPune =()=>{
   return(
     <div> <Navtwo/>
     <Pune/>
-    <Footer/>
     </div>
   ) 
 }
@@ -35,7 +34,6 @@ const showMumbai =()=>{
   return(
     <div> <Navtwo/>
     <Mumbai/>
-    <Footer/>
     </div>
   ) 
 }
